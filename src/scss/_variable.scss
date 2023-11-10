@@ -1,0 +1,50 @@
+:root {
+    /* primary */
+    --light-red: hsl(0, 100%, 67%);
+    --orangey-yellow: hsl(39, 100%, 56%);
+    --green-teal: hsl(166, 100%, 37%);
+    --cobalt-blue: hsl(234, 85%, 45%);
+
+    /* gradient */
+    --light-slate-blue: hsl(252, 100%, 67%);
+    --light-royal-blue: hsl(241, 81%, 54%);
+
+    --violet-blue: hsla(256, 72%, 46%, 1);
+    --persian-blue: hsla(241, 72%, 46%, 0);
+
+    /* neutral */
+    --white: hsl(0, 0%, 100%);
+    --pale-blue: hsl(221, 100%, 96%);
+    --light-lavender: hsl(241, 100%, 89%);
+    --dark-gray-blue: hsl(224, 30%, 27%);
+    --shadow1: rgba(61, 108, 236, 0.15);
+    
+    --gradient-1: linear-gradient(
+        90deg,
+        0% rgba(119, 85, 255, 1),
+        0.01 rgba(105, 67, 255, 1),
+        100% rgba(47, 44, 233, 1)
+    );
+    --gradient-2: linear-gradient(90deg, 0% rgba(77, 33, 201, 1), 100% rgba(37, 33, 201, 0), 100% rgba(37, 33, 201, 0));
+    --gradient-3: linear-gradient(180deg, var(--violet-blue) 0%, var(--light-slate-blue) 0.01%, var(--light-royal-blue) 100%);
+    --yellow: #ffb21eff;
+    --yellow-95-white: #ffb21eff, #fffffff2;
+    --blue: #1125d6ff;
+    --blue-95-white: #1125d6ff, #fffffff2;
+    --green: #00bb8fff;
+    --green-95-white: #00bb8fff, #fffffff2;
+    --red: #ff5555ff;
+    --red-95-white: #ff5555ff, #fffffff2;
+    --dark-navy: #303b59ff;
+    --light-blue: #cac9ffff;
+    --very-light-blue: #ecf2ffff;
+    --white: #ffffffff;
+    --black: #000000ff;
+
+    --border-radius: 32px;
+    --padding-16: 16px;
+    --font-size: 18px;
+}
+
+$mobile: 376px;
+$desktop: 1440px;
