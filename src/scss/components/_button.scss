@@ -1,0 +1,19 @@
+button {
+    --btn-bg: var(--dark-navy);
+    --btn-text-color: var(--white);
+    --btn-border-radius: 25px;
+    --btn-padding: var(--padding-16);
+    --btn-width: 100%;
+    
+    width: var(--btn-width);
+    padding: var(--btn-padding);
+    text-align: center;
+    border-radius: var(--btn-border-radius);
+    background: var(--btn-bg);
+    color: var(--btn-text-color);
+    border-color: var(--btn-bg);
+
+    &:hover {
+        --btn-bg: var(--gradient-3);
+    }
+}

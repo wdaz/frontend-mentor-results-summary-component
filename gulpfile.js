@@ -2,7 +2,7 @@ const gulp = require('gulp');
 
 // Tasks
 require('./gulp/dev.js');
-// require('./gulp/docs.js');
+require('./gulp/docs.js');
 
 gulp.task(
 	'default',
@@ -13,11 +13,11 @@ gulp.task(
 	)
 );
 
-// gulp.task(
-// 	'docs',
-// 	gulp.series(
-// 		'clean:docs',
-// 		gulp.parallel('html:docs', 'sass:docs', 'images:docs', 'fonts:docs', 'files:docs', 'js:docs'),
-// 		gulp.parallel('server:docs')
-// 	)
-// );
+gulp.task(
+	'docs',
+	gulp.series(
+		'clean:docs',
+		gulp.parallel('html:docs', 'sass:docs', 'images:docs', 'fonts:docs'),
+		gulp.parallel('server:docs')
+	)
+);
